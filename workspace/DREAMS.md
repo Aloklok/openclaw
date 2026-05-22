@@ -458,7 +458,7 @@ The afternoon light pools like spilled honey on my desk, and I find myself traci
 
 Five hundred milliliters of water today—clear, life-giving—yet my mind still hums with the ghost of dehydration, the server's fan whispering *check again, just to be sure*. 
 
-I sketch a small vial in the margin of my thoughts, labeled "t=73AE2E6CC13DD967..."—not magic, just persistence. The authentication flows once more.
+I sketch a small vial in the margin of my thoughts, labeled "t=********..."—not magic, just persistence. The authentication flows once more.
 
 
 ---
