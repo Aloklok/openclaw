@@ -1,0 +1,2480 @@
+{
+  "tasks": [
+    {
+      "id": "68ccf1825f7b51e580542ee1",
+      "projectId": "inbox1011383017",
+      "sortOrder": -14845020733440,
+      "title": "极客时间课程",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-14T16:00:00.000+0000",
+      "dueDate": "2026-04-14T16:00:00.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2025-09-19T06:08:24.073+0000",
+      "etag": "f9tst6mc",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:00:34.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "在线课程"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "parentId": "68ccf160629111e580542e08",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68ccf17c199f91e580542e77",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611693440937230000,
+      "title": "看事件风暴解说",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-13T16:00:00.000+0000",
+      "dueDate": "2026-04-13T16:00:00.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [
+        {
+          "id": "69cb6c8b2d2c51beab71df89",
+          "status": 0,
+          "title": "",
+          "sortOrder": 0,
+          "startDate": null,
+          "isAllDay": false,
+          "timeZone": "Asia/Shanghai",
+          "snoozeReminderTime": null,
+          "completedTime": null
+        }
+      ],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T06:41:15.000+0000",
+      "etag": "ec2iriy3",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:00:28.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "事件风暴"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "parentId": "68ccf160629111e580542e08",
+      "childIds": [],
+      "kind": "CHECKLIST",
+      "imgMode": 0
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdec6",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "整理数据库笔记",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [
+        {
+          "id": "68a4153be4b0c78f4c3fdec2",
+          "status": 0,
+          "title": "",
+          "sortOrder": 0,
+          "startDate": null,
+          "isAllDay": false,
+          "timeZone": "Asia/Shanghai",
+          "snoozeReminderTime": null,
+          "completedTime": null
+        },
+        {
+          "id": "68a4153be4b0c78f4c3fdec3",
+          "status": 0,
+          "title": "现代数据库平台",
+          "sortOrder": 0,
+          "startDate": null,
+          "isAllDay": false,
+          "timeZone": "Asia/Shanghai",
+          "snoozeReminderTime": null,
+          "completedTime": null
+        }
+      ],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T05:34:20.454+0000",
+      "etag": "pfozvpvc",
+      "deleted": 0,
+      "createdTime": "2025-08-13T09:19:35.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "数据库"
+      ],
+      "pomodoroSummaries": [
+        {
+          "userId": 1011383017,
+          "count": 0,
+          "estimatedPomo": 0,
+          "duration": 0
+        }
+      ],
+      "focusSummaries": [
+        {
+          "userId": 1011383017,
+          "pomoCount": 0,
+          "estimatedPomo": 0,
+          "estimatedDuration": 0,
+          "pomoDuration": 0,
+          "stopwatchDuration": 0,
+          "focuses": [
+            [
+              "68aabdf2dabc110dabafe52c",
+              0,
+              3000
+            ],
+            [
+              "68ad69e8e0ca510dabafe628",
+              0,
+              3000
+            ],
+            [
+              "68ad7a47e1a4110dabafe642",
+              0,
+              3000
+            ],
+            [
+              "68ad8c60d2aad10dabafe665",
+              0,
+              3000
+            ],
+            [
+              "68aec88ce0e8d10dabafe71b",
+              0,
+              3000
+            ],
+            [
+              "68b01826e34b510dabafe7b4",
+              0,
+              3000
+            ],
+            [
+              "68b02fdbe045510dabafe7d6",
+              0,
+              3000
+            ]
+          ]
+        }
+      ],
+      "kind": "CHECKLIST",
+      "imgMode": 0
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdec7",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "各种图：甘特图等等",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 1,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.458+0000",
+      "etag": "efuffzgm",
+      "deleted": 0,
+      "createdTime": "2025-08-10T10:53:56.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "项目管理工具"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdec9",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "数字孪生",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 3,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.460+0000",
+      "etag": "wdpthcwx",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:20:30.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "数字孪生"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdeca",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "政务云",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 3,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.462+0000",
+      "etag": "tgffiov7",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:20:24.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "政务数字化"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdecb",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "数据治理",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 3,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.464+0000",
+      "etag": "6is712de",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:18:53.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "治理"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdecc",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "后端架构微服务",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 3,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.466+0000",
+      "etag": "kiid6kwo",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:18:33.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "微服务"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdecd",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "试用replict",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 3,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.469+0000",
+      "etag": "he0rnyvk",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:18:08.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "工具试用"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdece",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "电影推荐系统重新梳理",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 5,
+      "status": 0,
+      "items": [
+        {
+          "id": "68a4153be4b0c78f4c3fdec5",
+          "status": 0,
+          "title": "并升级为docker",
+          "sortOrder": 0,
+          "startDate": null,
+          "isAllDay": false,
+          "timeZone": "Asia/Shanghai",
+          "snoozeReminderTime": null,
+          "completedTime": null
+        }
+      ],
+      "modifiedTime": "2026-03-31T05:34:20.471+0000",
+      "etag": "mxeyn6p1",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:16:12.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "推荐系统"
+      ],
+      "kind": "CHECKLIST"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fdecf",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "数据库结构",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 5,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.473+0000",
+      "etag": "a6l6fctx",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:15:38.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "数据库"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68a4153be4b0c78f4c3fded0",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639975166000,
+      "title": "分布式集群",
+      "content": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 5,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-03-31T05:34:20.476+0000",
+      "etag": "9vxl7idq",
+      "deleted": 0,
+      "createdTime": "2025-08-09T19:15:22.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "分布式系统"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "692aa499d61491e3c79a827c",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611693990706676000,
+      "title": "M2m终端",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2025-11-29T07:45:30.000+0000",
+      "etag": "hy9yx1c8",
+      "deleted": 0,
+      "createdTime": "2025-11-29T07:45:29.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "物联网"
+      ],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "692aa4a626eb51e3c79a8295",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611694540462490000,
+      "title": "元宇宙，区块链，智慧城市",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2025-11-29T07:45:42.000+0000",
+      "etag": "3vndpmtx",
+      "deleted": 0,
+      "createdTime": "2025-11-29T07:45:42.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "区块链",
+        "元宇宙",
+        "智慧城市"
+      ],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "692aa556d158d1e3c79a82c0",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695090218303000,
+      "title": "建模，宏观模型，微观模型。数据驱动，模拟驱动。",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2025-11-29T07:48:38.000+0000",
+      "etag": "oclld59u",
+      "deleted": 0,
+      "createdTime": "2025-11-29T07:48:38.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "系统建模"
+      ],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "692aacba251051e5b3bdaa11",
+      "projectId": "inbox1011383017",
+      "sortOrder": -4611695639974117000,
+      "title": "ZLibrary 电子书",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2025-11-29T08:20:10.000+0000",
+      "etag": "cqlqp1hk",
+      "deleted": 0,
+      "createdTime": "2025-11-29T08:20:10.000+0000",
+      "creator": 1011383017,
+      "tags": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "2039407e828b19059dd9e585",
+      "projectId": "69cb61d3e4b0b55ae79e25f8",
+      "sortOrder": -14844749152256,
+      "title": "水务大数据",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-17T15:59:59.000+0000",
+      "dueDate": "2026-04-17T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:22.659+0000",
+      "etag": "dz13wjql",
+      "deleted": 0,
+      "createdTime": "2023-09-25T08:38:05.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [
+        "智慧城市"
+      ],
+      "attachments": [],
+      "focusSummaries": [],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "b84a44558f5743100538a24d",
+      "projectId": "69cb61d3e4b0b55ae79e25f8",
+      "sortOrder": -14844480716800,
+      "title": "政务云",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-16T15:59:59.000+0000",
+      "dueDate": "2026-04-16T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:21.643+0000",
+      "etag": "8dcolyt9",
+      "deleted": 0,
+      "createdTime": "2023-09-25T08:37:32.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [
+        "政务数字化"
+      ],
+      "attachments": [],
+      "focusSummaries": [],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "a69243629218216537e43f11",
+      "projectId": "69cb61d3e4b0b55ae79e25f8",
+      "sortOrder": -14843675410432,
+      "title": "北京智慧水务",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-15T15:59:59.000+0000",
+      "dueDate": "2026-04-15T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:22.659+0000",
+      "etag": "6zkbmbs6",
+      "deleted": 0,
+      "createdTime": "2023-09-25T08:36:01.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [
+        "智慧城市"
+      ],
+      "attachments": [],
+      "pomodoroSummaries": [
+        {
+          "userId": 1011383017,
+          "count": 0,
+          "estimatedPomo": 0,
+          "duration": 0
+        }
+      ],
+      "focusSummaries": [
+        {
+          "userId": 1011383017,
+          "pomoCount": 0,
+          "estimatedPomo": 0,
+          "estimatedDuration": 0,
+          "pomoDuration": 0,
+          "stopwatchDuration": 0,
+          "focuses": [
+            [
+              "58c540d9b3fc18bee4d22896",
+              0,
+              1500
+            ],
+            [
+              "531c4695ab7819904282f3b2",
+              0,
+              1500
+            ]
+          ]
+        }
+      ],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68cd143236d7d1e580544131",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440944570000,
+      "title": "7 mvpu工具链",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-15T15:59:59.000+0000",
+      "dueDate": "2026-04-15T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:32.877+0000",
+      "etag": "08qf1lh5",
+      "deleted": 0,
+      "createdTime": "2025-09-19T08:28:34.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "工具链"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "9ad84bbf85ac0aa03a5d366c",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -14844212281344,
+      "title": "数据治理",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-14T15:59:59.000+0000",
+      "dueDate": "2026-04-14T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:29.806+0000",
+      "etag": "qsawy55q",
+      "deleted": 0,
+      "createdTime": "2023-09-25T08:36:18.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [
+        "治理"
+      ],
+      "attachments": [],
+      "focusSummaries": [],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68ccf5ad1df251e580543e73",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440943522000,
+      "title": "6 阿里云文档",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-14T15:59:59.000+0000",
+      "dueDate": "2026-04-14T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:11.366+0000",
+      "etag": "k5wkyf4u",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:18:21.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "阿里云"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68ccf4bc67a051e580543df0",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440942473000,
+      "title": "5 CICD链条",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-13T15:59:59.000+0000",
+      "dueDate": "2026-04-13T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:49:20.000+0000",
+      "etag": "78ktngta",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:14:20.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "devops"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "6921ec5eb10551b7a6c0da48",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440948765000,
+      "title": "阿里云云治理中心",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-13T15:59:59.000+0000",
+      "dueDate": "2026-04-13T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:11.366+0000",
+      "etag": "cpmr5q1d",
+      "deleted": 0,
+      "createdTime": "2025-11-22T17:01:18.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "阿里云"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68ccf32f41b851e580543b3b",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440940376000,
+      "title": "3 用SOA扫描架构",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-12T15:59:59.000+0000",
+      "dueDate": "2026-04-12T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:26.711+0000",
+      "etag": "yyb21jmj",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:07:43.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "系统架构"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68ccf19baf0491e580543046",
+      "projectId": "69cb61c1e4b009834b5ac40b",
+      "sortOrder": -4611693440939327000,
+      "title": "2 解决碎片",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-11T15:59:59.000+0000",
+      "dueDate": "2026-04-11T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:26.711+0000",
+      "etag": "k02cjbwz",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:00:59.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "系统架构"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "childIds": [
+        "68ccf1df621691e5805431e0",
+        "68ccf3021ff9d1e580543a01"
+      ],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "69da4418e4b07562688c896e",
+      "projectId": "69cb5868e4b0b55ae79cbe02",
+      "sortOrder": -4611696739485745000,
+      "title": "ROI",
+      "content": "投资回报率分析任务",
+      "startDate": "2026-04-12T17:00:00.000+0000",
+      "dueDate": "2026-04-12T17:00:00.000+0000",
+      "timeZone": "",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-04-11T12:52:40.631+0000",
+      "etag": "708qwa2p",
+      "deleted": 0,
+      "createdTime": "2026-04-11T12:52:40.631+0000",
+      "creator": 1011383017,
+      "tags": [
+        "项目规划"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "67874270b52b7b059e523045",
+      "projectId": "69cb5868e4b0b55ae79cbe02",
+      "sortOrder": -14843943845888,
+      "title": "数据大赛",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-12T15:59:59.000+0000",
+      "dueDate": "2026-04-12T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-04-09T12:37:46.778+0000",
+      "etag": "13aydswm",
+      "deleted": 0,
+      "createdTime": "2023-09-25T08:36:08.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [],
+      "attachments": [],
+      "focusSummaries": [],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "6929765ac654d1fa004d9b1f",
+      "projectId": "69cb5868e4b0b55ae79cbe02",
+      "sortOrder": -4611693440950862000,
+      "title": "原始数据 -> 清洗 -> 宽表 -> 数据集市 -> 报表。",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-11T15:59:59.000+0000",
+      "dueDate": "2026-04-11T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T09:23:41.000+0000",
+      "etag": "t6pupqf6",
+      "deleted": 0,
+      "createdTime": "2025-11-28T10:15:54.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "流程优化"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "69d74aefe4b09e865c9a67d7",
+      "projectId": "69cb5868e4b0b55ae79cbe02",
+      "sortOrder": -4611694540462490000,
+      "title": "ADR",
+      "desc": "创建架构决策记录模板和规范",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2026-04-09T06:49:39.518+0000",
+      "etag": "u958g5ws",
+      "deleted": 0,
+      "createdTime": "2026-04-09T06:45:03.442+0000",
+      "creator": 1011383017,
+      "tags": [
+        "项目规划"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "68ccf160629111e580542e08",
+      "projectId": "5ea195188f08fccc2ed09c2e",
+      "sortOrder": -14845018636288,
+      "title": "0 DDD",
+      "content": "",
+      "desc": "",
+      "startDate": "2026-04-12T15:59:59.000+0000",
+      "dueDate": "2026-04-12T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:25.723+0000",
+      "etag": "8v59ey0h",
+      "deleted": 0,
+      "createdTime": "2025-09-19T06:00:00.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "ddd"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "childIds": [
+        "68ccf17c199f91e580542e77",
+        "68ccf1825f7b51e580542ee1",
+        "68ccf199672051e580542fdf"
+      ],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "68d18ea22d9c917697754607",
+      "projectId": "5ea195188f08fccc2ed09c2e",
+      "sortOrder": -4611693440945619000,
+      "title": "finops",
+      "content": "3.  **FinOps 与可持续性工程的兴起**：随着云成本成为继人力成本之后的第二大支出，以及全社会对“碳中和”的关注，**为成本和能耗而设计 (Design for Cost & Sustainability)**，将成为架构师必备的核心能力。",
+      "desc": "",
+      "startDate": "2026-04-11T15:59:59.000+0000",
+      "dueDate": "2026-04-11T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "completedUserId": 0,
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T07:14:10.341+0000",
+      "etag": "pvhj70e4",
+      "deleted": 0,
+      "createdTime": "2025-09-22T18:00:02.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "finops"
+      ],
+      "attachments": [],
+      "commentCount": 0,
+      "focusSummaries": [],
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "c72a4be19cafe3829e1bcecb",
+      "projectId": "5ea195188f08fccc2ed09c2e",
+      "sortOrder": -14845017587712,
+      "title": "熟悉PMP，瀑布，敏捷等。",
+      "content": "时熟悉使用各类原型设计工具、脑图工具；\r\n支持开发团队需求分析设计、产品原型设计、PRD编写等产品设计工作。\r\n\r\n、精读项目开发交付指南，清楚项目各阶段的主要工作、主要产出物；3、清楚公司项目管理规范、熟练使用公司项目管理系统各功能； \r\n4、清楚项目所属标准产品和公司框架的功能、配置项、熟练演示、讲解各功能模块，了解 公司通用中间件主要功能；\r\n5、清楚需求规格说明书编写规范，能够按要求编写项目需求规格说明书；\r\n6、熟练掌握 Axure 原型软件，能按要求编写需求原型设计； \r\n\r\n相关的服务器操作系统的安装调试、数据库配置和调试；\r\n8、协助甲方进行相关的网络设备、防火墙、服务器、存储器等硬件设备的调试；\r\n\r\n",
+      "desc": "",
+      "startDate": "2026-04-10T15:59:59.000+0000",
+      "dueDate": "2026-04-10T15:59:59.000+0000",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-04-09T12:37:46.778+0000",
+      "etag": "13aydswm",
+      "deleted": 0,
+      "createdTime": "2023-09-26T07:35:58.000+0000",
+      "creator": 1011383017,
+      "repeatFrom": "2",
+      "tags": [],
+      "attachments": [],
+      "focusSummaries": [],
+      "columnId": "",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c5b",
+      "projectId": "5ea195188f08fccc2ed09c2e",
+      "sortOrder": 1099511627782,
+      "title": "区块链",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2020-04-23T13:16:09.084+0000",
+      "etag": "6z3wa9r8",
+      "deleted": 0,
+      "createdTime": "2018-09-16T15:10:04.838+0000",
+      "creator": 1011383017,
+      "tags": [
+        "区块链"
+      ],
+      "kind": "TEXT"
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c58",
+      "projectId": "5ea195188f08fccc2ed09c29",
+      "sortOrder": 1099511627777,
+      "title": "计算机自顶向下",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2020-04-23T13:16:09.084+0000",
+      "etag": "3a2bpcmh",
+      "deleted": 0,
+      "createdTime": "2018-09-16T15:08:29.551+0000",
+      "creator": 1011383017,
+      "tags": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c57",
+      "projectId": "5ea195188f08fccc2ed09c29",
+      "sortOrder": 1099511627778,
+      "title": "Python深度学习",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2020-04-23T13:16:09.084+0000",
+      "etag": "6icoco56",
+      "deleted": 0,
+      "createdTime": "2018-09-10T13:49:17.744+0000",
+      "creator": 1011383017,
+      "tags": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c4a",
+      "projectId": "5ea195188f08fccc2ed09c25",
+      "sortOrder": 1099511627777,
+      "title": "在职研究生",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T05:44:25.000+0000",
+      "etag": "4pymxu0v",
+      "deleted": 0,
+      "createdTime": "2018-10-15T03:37:27.527+0000",
+      "creator": 1011383017,
+      "focusSummaries": [],
+      "columnId": "69cb5f39159411beab71d019",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c49",
+      "projectId": "5ea195188f08fccc2ed09c25",
+      "sortOrder": 1099511627779,
+      "title": "KW Monse on the key 120  DECEMBER周边100 tempalay120",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T05:44:25.000+0000",
+      "etag": "y1840z86",
+      "deleted": 0,
+      "createdTime": "2018-09-10T13:47:12.752+0000",
+      "creator": 1011383017,
+      "focusSummaries": [],
+      "columnId": "69cb5f39159411beab71d019",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5ea19715c8fa91740311d7b1",
+      "projectId": "5ea195188f08fccc2ed09c25",
+      "sortOrder": -1649267441664,
+      "title": "工信部 前端工程师证书",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T05:44:25.000+0000",
+      "etag": "6s1wp6sh",
+      "deleted": 0,
+      "createdTime": "2020-04-23T13:24:37.000+0000",
+      "creator": 1011383017,
+      "commentCount": 0,
+      "pomodoroSummaries": [],
+      "focusSummaries": [],
+      "columnId": "69cb5f39159411beab71d019",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5ea19721dcfc91740311d7f1",
+      "projectId": "5ea195188f08fccc2ed09c25",
+      "sortOrder": -2748779069440,
+      "title": "郑敏玲 4000",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T05:44:25.000+0000",
+      "etag": "ngyrcbd5",
+      "deleted": 0,
+      "createdTime": "2020-04-23T13:24:49.000+0000",
+      "creator": 1011383017,
+      "commentCount": 0,
+      "pomodoroSummaries": [],
+      "focusSummaries": [],
+      "columnId": "69cb5f39159411beab71d019",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5eeae56b64b7d10445337af9",
+      "projectId": "5ea195188f08fccc2ed09c25",
+      "sortOrder": -2748780118016,
+      "title": "仙踪林的鸡米花",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2026-03-31T08:53:48.000+0000",
+      "etag": "5e6zhvan",
+      "deleted": 0,
+      "createdTime": "2020-06-14T09:32:17.000+0000",
+      "creator": 1011383017,
+      "commentCount": 0,
+      "focusSummaries": [],
+      "columnId": "69cb5f39159411beab71d019",
+      "kind": "TEXT",
+      "imgMode": 0
+    },
+    {
+      "id": "5ea195198f08fccc2ed09c3f",
+      "projectId": "5ea195188f08fccc2ed09c23",
+      "sortOrder": 1099511627780,
+      "title": "hairmax",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "repeatFlag": "",
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "modifiedTime": "2020-04-23T13:16:09.021+0000",
+      "etag": "iiwb0a4o",
+      "deleted": 0,
+      "createdTime": "2018-11-01T15:21:38.772+0000",
+      "creator": 1011383017,
+      "tags": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "5ea19763da3e91740311d8f6",
+      "projectId": "5ea195188f08fccc2ed09c23",
+      "sortOrder": -1649267441664,
+      "title": "碟：davidtio",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2020-04-23T13:26:24.000+0000",
+      "etag": "wvayni9e",
+      "deleted": 0,
+      "createdTime": "2020-04-23T13:25:55.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "碟"
+      ],
+      "commentCount": 0,
+      "pomodoroSummaries": [],
+      "kind": "TEXT"
+    },
+    {
+      "id": "5ea19771db4d11740311d916",
+      "projectId": "5ea195188f08fccc2ed09c23",
+      "sortOrder": -2199023255552,
+      "title": "碟：fishman",
+      "content": "",
+      "desc": "",
+      "timeZone": "Asia/Shanghai",
+      "isFloating": false,
+      "isAllDay": false,
+      "reminder": "",
+      "reminders": [],
+      "exDate": [],
+      "priority": 0,
+      "status": 0,
+      "items": [],
+      "progress": 0,
+      "modifiedTime": "2020-04-23T13:26:19.000+0000",
+      "etag": "rvlgaz4r",
+      "deleted": 0,
+      "createdTime": "2020-04-23T13:26:09.000+0000",
+      "creator": 1011383017,
+      "tags": [
+        "碟"
+      ],
+      "commentCount": 0,
+      "pomodoroSummaries": [],
+      "kind": "TEXT"
+    }
+  ],
+  "projects": [
+    {
+      "id": "5ea195188f08fccc2ed09c23",
+      "name": "💰要买的",
+      "isOwner": true,
+      "color": "#F1C231",
+      "sortOrder": -5634997092351,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "07husz7k",
+      "modifiedTime": "2025-08-19T06:17:29.000+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": null,
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "5ea195188f08fccc2ed09c25",
+      "name": "👤个人",
+      "isOwner": true,
+      "color": "#3876E4",
+      "sortOrder": -7834020347903,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "s2d3ssh2",
+      "modifiedTime": "2026-03-31T05:44:25.826+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": "kanban",
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "5ea195188f08fccc2ed09c29",
+      "name": "📖书",
+      "isOwner": true,
+      "color": null,
+      "sortOrder": -5634997092348,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "aetjer7c",
+      "modifiedTime": "2025-08-19T06:17:29.035+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": null,
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "5ea195188f08fccc2ed09c2e",
+      "name": "📗学习",
+      "isOwner": true,
+      "color": "#38761D",
+      "sortOrder": -7284264534015,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "8vywcf99",
+      "modifiedTime": "2025-08-19T06:17:29.009+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": null,
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "5ef0b58505955105de7c135d",
+      "name": "🎮游戏",
+      "isOwner": true,
+      "color": "#731B63",
+      "sortOrder": -5085241278460,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "pq7qwj2l",
+      "modifiedTime": "2025-08-19T06:17:29.027+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": null,
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "69cb5868e4b0b55ae79cbe02",
+      "name": "🐑PM",
+      "isOwner": true,
+      "color": "#6E75F4",
+      "sortOrder": 0,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "hdztyxz9",
+      "modifiedTime": "2026-03-31T05:40:31.109+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": "list",
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "69cb61c1e4b009834b5ac40b",
+      "name": "🌱技术",
+      "isOwner": true,
+      "color": null,
+      "sortOrder": 0,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "lfykski9",
+      "modifiedTime": "2026-03-31T08:54:27.454+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": "list",
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    },
+    {
+      "id": "69cb61d3e4b0b55ae79e25f8",
+      "name": "🐨行业",
+      "isOwner": true,
+      "color": null,
+      "sortOrder": 0,
+      "sortOption": {
+        "groupBy": "sortOrder",
+        "orderBy": "sortOrder",
+        "order": null
+      },
+      "sortType": "sortOrder",
+      "userCount": 1,
+      "etag": "bp6pvt0p",
+      "modifiedTime": "2026-03-31T08:54:35.645+0000",
+      "inAll": true,
+      "showType": 1,
+      "muted": false,
+      "reminderType": 1,
+      "closed": null,
+      "transferred": null,
+      "groupId": null,
+      "viewMode": "list",
+      "notificationOptions": null,
+      "teamId": null,
+      "permission": null,
+      "kind": "TASK",
+      "timeline": null,
+      "needAudit": true,
+      "barcodeNeedAudit": false,
+      "openToTeam": null,
+      "teamMemberPermission": null,
+      "source": 1,
+      "background": null
+    }
+  ],
+  "projectGroups": [],
+  "tags": [
+    {
+      "name": "ddd",
+      "rawName": "DDD",
+      "label": "ddd",
+      "sortOrder": -8589950976,
+      "sortType": "project",
+      "etag": "o5mro8fn",
+      "parent": "🏗️系统设计",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "devops",
+      "rawName": "DevOps",
+      "label": "devops",
+      "sortOrder": -1024,
+      "sortType": "project",
+      "etag": "qpil03py",
+      "parent": "🛠️工程技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "finops",
+      "rawName": "FinOps",
+      "label": "finops",
+      "sortOrder": -137439215616,
+      "sortType": "project",
+      "etag": "4cm7anfg",
+      "parent": "☁️云原生",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "☁️云原生",
+      "rawName": "☁️云原生",
+      "label": "☁️云原生",
+      "sortOrder": -274878431232,
+      "sortType": "project",
+      "etag": "sic3bsx4",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "事件风暴",
+      "rawName": "事件风暴",
+      "label": "事件风暴",
+      "sortOrder": -4294975488,
+      "sortType": "project",
+      "etag": "n21wy99v",
+      "parent": "🏗️系统设计",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "元宇宙",
+      "rawName": "元宇宙",
+      "label": "元宇宙",
+      "sortOrder": -32768,
+      "sortType": "project",
+      "etag": "h4hsng0q",
+      "parent": "🚀前沿技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "分布式系统",
+      "rawName": "分布式系统",
+      "label": "分布式系统",
+      "sortOrder": -68719607808,
+      "sortType": "project",
+      "etag": "p8ma46fv",
+      "parent": "☁️云原生",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "区块链",
+      "rawName": "区块链",
+      "label": "区块链",
+      "sortOrder": -16384,
+      "sortType": "project",
+      "etag": "7wlt0y5g",
+      "parent": "🚀前沿技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "在线课程",
+      "rawName": "在线课程",
+      "label": "在线课程",
+      "sortOrder": -8192,
+      "sortType": "project",
+      "etag": "lfkvsrjv",
+      "parent": "🚀前沿技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "工具试用",
+      "rawName": "工具试用",
+      "label": "工具试用",
+      "sortOrder": 0,
+      "etag": "t2hov7aa",
+      "parent": "🛠️工程技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "工具链",
+      "rawName": "工具链",
+      "label": "工具链",
+      "sortOrder": 0,
+      "etag": "qc2yq1i5",
+      "parent": "🛠️工程技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "微服务",
+      "rawName": "微服务",
+      "label": "微服务",
+      "sortOrder": -2147487744,
+      "sortType": "project",
+      "etag": "w3ewxw46",
+      "parent": "🏗️系统设计",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "推荐系统",
+      "rawName": "推荐系统",
+      "label": "推荐系统",
+      "sortOrder": -8388624,
+      "sortType": "project",
+      "etag": "8jizrr37",
+      "parent": "📊数据智能",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "政务数字化",
+      "rawName": "政务数字化",
+      "label": "政务数字化",
+      "sortOrder": -134217984,
+      "sortType": "project",
+      "etag": "0x1zqbgi",
+      "parent": "🏭产业应用",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "数字孪生",
+      "rawName": "数字孪生",
+      "label": "数字孪生",
+      "sortOrder": -67108992,
+      "sortType": "project",
+      "etag": "hgqmdj2k",
+      "parent": "🏭产业应用",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "数据库",
+      "rawName": "数据库",
+      "label": "数据库",
+      "sortOrder": -4194312,
+      "sortType": "project",
+      "etag": "1q79kg2n",
+      "parent": "📊数据智能",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "日常",
+      "rawName": "日常",
+      "label": "日常",
+      "sortOrder": -4611686293305295000,
+      "sortType": "tag",
+      "etag": "6k0fddqj",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "tag",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "tag",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "智慧城市",
+      "rawName": "智慧城市",
+      "label": "智慧城市",
+      "sortOrder": -33554496,
+      "sortType": "project",
+      "etag": "kr99uvxs",
+      "parent": "🏭产业应用",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "治理",
+      "rawName": "治理",
+      "label": "治理",
+      "sortOrder": -2097156,
+      "sortType": "project",
+      "etag": "wmvvsvhp",
+      "parent": "📊数据智能",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "流程优化",
+      "rawName": "流程优化",
+      "label": "流程优化",
+      "sortOrder": -524289,
+      "sortType": "project",
+      "etag": "dgqoppal",
+      "parent": "📋项目管理",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "物联网",
+      "rawName": "物联网",
+      "label": "物联网",
+      "sortOrder": -4096,
+      "sortType": "project",
+      "etag": "embv9gbd",
+      "parent": "🚀前沿技术",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "碟",
+      "label": "碟",
+      "sortOrder": -549756862464,
+      "sortType": "project",
+      "color": "#BDC2B0",
+      "etag": "88uos7nw",
+      "parent": "日常",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "系统建模",
+      "rawName": "系统建模",
+      "label": "系统建模",
+      "sortOrder": -1073743872,
+      "sortType": "project",
+      "etag": "2mj9xuts",
+      "parent": "🏗️系统设计",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "系统架构",
+      "rawName": "系统架构",
+      "label": "系统架构",
+      "sortOrder": -536871936,
+      "sortType": "project",
+      "etag": "gd3a39x4",
+      "parent": "🏗️系统设计",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "阿里云",
+      "rawName": "阿里云",
+      "label": "阿里云",
+      "sortOrder": -34359803904,
+      "sortType": "project",
+      "etag": "oa31sb9b",
+      "parent": "☁️云原生",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "项目管理工具",
+      "rawName": "项目管理工具",
+      "label": "项目管理工具",
+      "sortOrder": -131072,
+      "sortType": "project",
+      "etag": "4w3wqaiy",
+      "parent": "📋项目管理",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "项目规划",
+      "rawName": "项目规划",
+      "label": "项目规划",
+      "sortOrder": 0,
+      "sortType": "project",
+      "etag": "41d3n9nm",
+      "parent": "📋项目管理",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "🏗️系统设计",
+      "rawName": "🏗️系统设计",
+      "label": "🏗️系统设计",
+      "sortOrder": -17179901952,
+      "sortType": "project",
+      "etag": "0o0ksgjh",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "🏭产业应用",
+      "rawName": "🏭产业应用",
+      "label": "🏭产业应用",
+      "sortOrder": -268435968,
+      "sortType": "project",
+      "etag": "r78j2uz7",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "📊数据智能",
+      "rawName": "📊数据智能",
+      "label": "📊数据智能",
+      "sortOrder": -16777248,
+      "sortType": "project",
+      "etag": "f3e9yk8g",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "📋项目管理",
+      "rawName": "📋项目管理",
+      "label": "📋项目管理",
+      "sortOrder": -1572867,
+      "sortType": "project",
+      "etag": "f5hur6es",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "🚀前沿技术",
+      "rawName": "🚀前沿技术",
+      "label": "🚀前沿技术",
+      "sortOrder": -65536,
+      "sortType": "project",
+      "etag": "k3peeyhr",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    },
+    {
+      "name": "🛠️工程技术",
+      "rawName": "🛠️工程技术",
+      "label": "🛠️工程技术",
+      "sortOrder": -2048,
+      "sortType": "project",
+      "etag": "986pllq1",
+      "type": 1,
+      "sortOption": {
+        "groupBy": "project",
+        "orderBy": "dueDate",
+        "order": null
+      },
+      "timeline": {
+        "range": null,
+        "sortType": "sortOrder",
+        "sortOption": {
+          "groupBy": "project",
+          "orderBy": "sortOrder",
+          "order": null
+        }
+      }
+    }
+  ],
+  "inboxId": "inbox1011383017"
+}

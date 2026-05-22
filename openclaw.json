@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.5.20",
+    "lastTouchedAt": "2026-05-22T08:18:34.348Z"
+  },
+  "update": {
+    "checkOnStart": false
+  },
+  "browser": {
+    "executablePath": "/usr/bin/chromium",
+    "headless": true,
+    "noSandbox": true,
+    "defaultProfile": "openclaw"
+  },
+  "models": {
+    "pricing": {
+      "enabled": false
+    },
+    "mode": "replace",
+    "providers": {
+      "openrouter_custom": {
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "api": "openai-completions",
+        "request": {
+          "proxy": {
+            "mode": "explicit-proxy",
+            "url": "http://host.docker.internal:7890"
+          }
+        },
+        "models": [
+          {
+            "id": "google/gemma-3-27b-it:free",
+            "name": "google/gemma-3-27b-it:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "minimax/minimax-m2.5:free",
+            "name": "minimax/minimax-m2.5:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "z-ai/glm-4.5-air:free",
+            "name": "z-ai/glm-4.5-air:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen/qwen3-next-80b-a3b-instruct:free",
+            "name": "qwen/qwen3-next-80b-a3b-instruct:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "nvidia/nemotron-3-super-120b-a12b:free",
+            "name": "nvidia/nemotron-3-super-120b-a12b:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "qwen/qwen3-coder:free",
+            "name": "qwen/qwen3-coder:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+            "name": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "meta-llama/llama-3.3-70b-instruct:free",
+            "name": "meta-llama/llama-3.3-70b-instruct:free",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "siliconflow": {
+        "baseUrl": "https://api.siliconflow.cn/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "Qwen/Qwen3.5-4B",
+            "name": "Qwen/Qwen3.5-4B",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 32000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "Qwen/Qwen3-8B",
+            "name": "Qwen/Qwen3-8B",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 32000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "Meituan_LongCat": {
+        "baseUrl": "https://api.longcat.chat/openai/v1",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "LongCat-Flash-Thinking-2601",
+            "name": "LongCat-Flash-Thinking-2601",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "LongCat-Flash-Chat",
+            "name": "LongCat-Flash-Chat",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "LongCat-Flash-Omni-2603",
+            "name": "LongCat-Flash-Omni-2603",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "LongCat-Flash-Lite",
+            "name": "LongCat-Flash-Lite",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "meituan_longcat/LongCat-Flash-Chat"
+      },
+      "imageModel": {
+        "primary": "openrouter_custom/google/gemma-3-27b-it:free"
+      },
+      "models": {},
+      "userTimezone": "Asia/Shanghai",
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "elevatedDefault": "full",
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      },
+      "toolProgressDetail": "explain",
+      "sandbox": {
+        "mode": "off",
+        "workspaceAccess": "none",
+        "scope": "agent"
+      },
+      "thinkingDefault": "low"
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "sessions": {
+      "visibility": "all"
+    },
+    "elevated": {
+      "enabled": true,
+      "allowFrom": {
+        "webchat": [
+          "*"
+        ],
+        "*": [
+          "*"
+        ]
+      }
+    },
+    "exec": {
+      "host": "auto"
+    },
+    "fs": {
+      "workspaceOnly": false
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions",
+    "groupChat": {
+      "visibleReplies": "automatic"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "config": true,
+    "ownerDisplay": "raw",
+    "ownerAllowFrom": [
+      "o9cq80y6elATkZb3OAurZezVak0Q@im.wechat"
+    ]
+  },
+  "channels": {
+    "openclaw-weixin": {
+      "enabled": true,
+      "provider": "weixin",
+      "providerOptions": {
+        "isolatedPolling": true,
+        "durableSpooling": true
+      },
+      "dmPolicy": "open",
+      "allowFrom": [
+        "*"
+      ],
+      "channelConfigUpdatedAt": "2026-05-08T08:45:21.097Z",
+      "groupAllowFrom": [
+        "*"
+      ]
+    },
+    "telegram": {
+      "enabled": false,
+      "proxy": "http://host.docker.internal:7890",
+      "dmPolicy": "open",
+      "allowFrom": [
+        "*"
+      ],
+      "groupPolicy": "open",
+      "streaming": {
+        "mode": "partial"
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "lan",
+    "controlUi": {
+      "allowedOrigins": [
+        "*"
+      ],
+      "allowInsecureAuth": true,
+      "dangerouslyDisableDeviceAuth": true
+    },
+    "auth": {
+      "mode": "token"
+    },
+    "tailscale": {}
+  },
+  "proxy": {
+    "enabled": false
+  },
+  "memory": {
+    "backend": "builtin",
+    "citations": "auto"
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "autoreview": {
+        "enabled": true
+      },
+      "node-inspector": {
+        "enabled": true
+      },
+      "python-debugger": {
+        "enabled": true
+      },
+      "weather": {
+        "enabled": true
+      },
+      "xurl": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "dida365-openapi": {
+        "enabled": true
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "skill-finder-cn": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      }
+    }
+  },
+  "plugins": {
+    "enabled": true,
+    "allow": [
+      "browser",
+      "memory-core",
+      "openclaw-weixin",
+      "telegram"
+    ],
+    "entries": {
+      "telegram": {
+        "enabled": false
+      },
+      "browser": {
+        "enabled": true
+      },
+      "memory-core": {
+        "enabled": true,
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
+      },
+      "openclaw-weixin": {
+        "enabled": true
+      }
+    },
+    "bundledDiscovery": "allowlist"
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-19T06:17:15.876Z",
+    "lastRunVersion": "2026.5.18",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "hefengweather": {
+      "version": "0.1.0",
+      "installedAt": 1779434216824
+    },
+    "openclaw-find-skills": {
+      "version": "1.0.0",
+      "installedAt": 1779434222187
+    },
+    "obsidian-daily": {
+      "version": "1.2.1",
+      "installedAt": 1779434226130
+    },
+    "obsidian-notesmd-cli": {
+      "version": "1.0.0",
+      "installedAt": 1779434229624
+    },
+    "obsidian-cli": {
+      "version": "2.0.0",
+      "installedAt": 1779434233747
+    },
+    "skill-finder-cn": {
+      "version": "1.0.1",
+      "installedAt": 1779434238466
+    },
+    "dida365-cli": {
+      "version": "3.0.3",
+      "installedAt": 1779434248316
+    }
+  }
+}

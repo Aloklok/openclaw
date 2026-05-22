@@ -1,0 +1,195 @@
+{
+  "profile": {
+    "goal_ml": 1500,
+    "cup_ml": 250,
+    "bottle_ml": 500,
+    "drink_gap_minutes": 90,
+    "standalone_gap_minutes": 60,
+    "prompt_cooldown_minutes": 120,
+    "drink_cooldown_minutes": 90,
+    "default_defer_minutes": 25,
+    "standalone_prompt_limit": 5,
+    "silent_hours": {
+      "start": "23:00",
+      "end": "08:00"
+    },
+    "timezone": "Asia/Shanghai"
+  },
+  "daily": {
+    "date": "2026-05-20",
+    "today_total_ml": 0,
+    "goal_ml": 1500,
+    "last_drink_at": null,
+    "last_prompt_at": "2026-05-20T15:01:30+08:00",
+    "last_prompt_kind": "standalone",
+    "defer_until": null,
+    "cooldown_until": "2026-05-20T17:01:30+08:00",
+    "standalone_prompts_today": 4,
+    "contextual_prompts_today": 0,
+    "events": []
+  },
+  "history": [
+    {
+      "date": "2026-04-09",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-10",
+      "total_ml": 1350,
+      "events_count": 4,
+      "last_drink_at": "2026-04-10T19:55:49+08:00"
+    },
+    {
+      "date": "2026-04-11",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-12",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-13",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-14",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-15",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-16",
+      "total_ml": 600,
+      "events_count": 2,
+      "last_drink_at": "2026-04-16T18:07:06+08:00"
+    },
+    {
+      "date": "2026-04-17",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-18",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-20",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-22",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-26",
+      "total_ml": 500,
+      "events_count": 1,
+      "last_drink_at": "2026-04-26T16:56:33+08:00"
+    },
+    {
+      "date": "2026-04-27",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-04-28",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-01",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-02",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-03",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-05",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-06",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-08",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-09",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-15",
+      "total_ml": 750,
+      "events_count": 2,
+      "last_drink_at": "2026-05-15T22:31:15+08:00"
+    },
+    {
+      "date": "2026-05-16",
+      "total_ml": 2000,
+      "events_count": 4,
+      "last_drink_at": "2026-05-16T18:44:22+08:00"
+    },
+    {
+      "date": "2026-05-17",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-18",
+      "total_ml": 0,
+      "events_count": 0,
+      "last_drink_at": null
+    },
+    {
+      "date": "2026-05-19",
+      "total_ml": 1100,
+      "events_count": 2,
+      "last_drink_at": "2026-05-19T21:08:31+08:00"
+    }
+  ]
+}

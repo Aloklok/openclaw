@@ -1,0 +1,11 @@
+podcast_outputs/
+external_outputs/
+**/node_modules/
+**/.git/
+**/python_packages/
+.clawhub/
+.openclaw/
+tmp/
+*.log
+*.pyc
+__pycache__/

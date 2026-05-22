@@ -1,0 +1,26 @@
+{
+  "id": "water-reminder-$(uuidgen | cut -d'-' -f1)",
+  "agentId": "main",
+  "name": "喝水提醒",
+  "enabled": true,
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 9,11,14,16,18,20 * * 1-5",
+    "tz": "Asia/Shanghai"
+  },
+  "sessionTarget": "isolated",
+  "wakeMode": "now",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "请检查当前喝水状态并发送喝水提醒。使用 skills/hydro-heartbeat/scripts/manage.py check 检查状态，如果需要提醒则发送微信消息。完成后回复 NO_REPLY。",
+    "lightContext": true,
+    "timeoutSeconds": 60
+  },
+  "delivery": {
+    "mode": "announce",
+    "channel": "openclaw-weixin",
+    "bestEffort": false,
+    "to": "o9cq80y6elATkZb3OAurZezVak0Q@im.wechat",
+    "accountId": "616fa179e85d-im-bot"
+  }
+}

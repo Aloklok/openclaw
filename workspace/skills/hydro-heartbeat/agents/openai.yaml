@@ -1,0 +1,7 @@
+interface:
+  display_name: "喝水心跳"
+  short_description: "本地喝水状态机与低频柔性问询。"
+  default_prompt: "Use $hydro-heartbeat to quietly track hydration, decide whether a gentle Chinese prompt is appropriate, and update local water state."
+
+policy:
+  allow_implicit_invocation: true
