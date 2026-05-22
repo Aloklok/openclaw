@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -211,18 +212,23 @@ def stage_prompt_pool(stage: str, context: str) -> list[str]:
         "behind_schedule": [
             "今天这补水进度有点想装死了，再不拉它一把，下午真容易蔫。",
             "水杯都快等成望夫石了，你去碰它一下，今天还能救回来。",
+            "距离上次喝水好像过去很久了，进度条还是一动不动哦。",
+            "系统检测到你这会儿极度缺水，如果再不喝，我的算法都要替你报警了。",
         ],
         "in_progress": [
             "你今天其实没掉线，再补一口，状态会更像个正常运转的人类。",
             "这会儿补点水很值，脑子不卡顿，人也没那么干巴。",
+            "就差一点点，顺手拿起杯子，打乱一下久坐的僵硬节奏吧。",
         ],
         "wrap_up": [
             "今天已经走到收官段了，顺手补这一口，晚上会舒服很多。",
             "尾巴已经不长了，这杯补完，今天这局就能体面收工。",
+            "马上大功告成，喝完就可以骄傲地给自己打个勾了。",
         ],
         "resume": [
             "中间掉了一拍没事，现在把这口接上，节奏就又回来了。",
             "刚刚那段算临时失联，现在人回来了，水也顺手续上。",
+            "失踪人口回归，第一件事当然是先喝口水压压惊。",
         ],
     }
     return anchor_pools[stage] + creative_pools[stage]
@@ -266,10 +272,8 @@ def progress_context(state: dict[str, Any], stage: str, now: datetime, gap: int 
 
 
 def choose_prompt(state: dict[str, Any], context: str, stage: str, now: datetime, gap: int | None) -> str:
-    daily = state["daily"]
-    total_prompts = daily.get("standalone_prompts_today", 0) + daily.get("contextual_prompts_today", 0)
     pool = stage_prompt_pool(stage, context)
-    base = pool[total_prompts % len(pool)]
+    base = random.choice(pool)
     if context == "contextual":
         return base
     suffix = progress_context(state, stage, now, gap)
@@ -300,7 +304,42 @@ def choose_log_reply(state: dict[str, Any], amount: int) -> str:
             "收到，这一大口算有效回血，已经记上。",
             "记好了，这杯下去水杯今天算干了件正事。",
         ]
-    return pool[total % len(pool)]
+    return random.choice(pool)
+
+def calculate_dynamic_cooldown(state: dict[str, Any], now: datetime, action: str = "prompt") -> int:
+    daily = state["daily"]
+    prof = profile(state)
+    today_total = daily.get("today_total_ml", 0)
+    goal_ml = daily.get("goal_ml") or prof.get("goal_ml", 2000)
+    
+    hours = prof.get("silent_hours", {})
+    end_silent = hours.get("end", "09:00")
+    end_h, end_m = map(int, end_silent.split(":"))
+    wake_hour = end_h + (end_m / 60)
+    
+    current_hour = now.hour + (now.minute / 60)
+    if current_hour < wake_hour:
+        current_hour += 24
+    
+    active_elapsed = max(current_hour - wake_hour, 0.1)
+    expected_percent = min(active_elapsed / 14.0, 1.0)
+    actual_percent = today_total / goal_ml if goal_ml > 0 else 0
+    
+    lag_percent = expected_percent - actual_percent
+    
+    if action == "prompt":
+        last_drink_at = parse_ts(daily.get("last_drink_at"))
+        gap = minutes_since(last_drink_at, now) if last_drink_at else 999
+        if lag_percent > 0.3 or gap > 120:
+            return 30
+        elif lag_percent > 0.1:
+            return 60
+        else:
+            return 120
+    else:
+        if lag_percent > 0.2:
+            return 60
+        return 90
 
 
 def run_check(state: dict[str, Any], now: datetime, context: str) -> dict[str, Any]:
@@ -314,7 +353,15 @@ def run_check(state: dict[str, Any], now: datetime, context: str) -> dict[str, A
         cooldown_until = parse_ts(daily.get("cooldown_until"))
         last_drink_at = parse_ts(daily.get("last_drink_at"))
         standalone_count = daily.get("standalone_prompts_today", 0)
-        threshold = prof.get("drink_gap_minutes", 90) if context == "contextual" else prof.get("standalone_gap_minutes", 150)
+        if context == "contextual":
+            threshold = prof.get("drink_gap_minutes", 90)
+        else:
+            today_total = daily.get("today_total_ml", 0)
+            goal_ml = daily.get("goal_ml") or prof.get("goal_ml", 2000)
+            if goal_ml > 0 and (today_total / goal_ml) < 0.3 and now.hour >= 14:
+                threshold = 60
+            else:
+                threshold = prof.get("standalone_gap_minutes", 90)
         if defer_until and now < defer_until:
             result = CheckResult(False, "deferred", "none", None)
         elif cooldown_until and now < cooldown_until:
@@ -368,7 +415,7 @@ def cmd_log(args: argparse.Namespace) -> int:
     daily["today_total_ml"] = daily.get("today_total_ml", 0) + amount
     daily["last_drink_at"] = fmt_ts(now)
     daily["defer_until"] = None
-    daily["cooldown_until"] = fmt_ts(now + timedelta(minutes=prof.get("drink_cooldown_minutes", 90)))
+    daily["cooldown_until"] = fmt_ts(now + timedelta(minutes=calculate_dynamic_cooldown(state, now, "drink")))
     daily.setdefault("events", []).append(
         {
             "time": fmt_ts(now),
@@ -407,7 +454,7 @@ def cmd_mark_prompt(args: argparse.Namespace) -> int:
     kind = args.kind
     daily["last_prompt_at"] = fmt_ts(now)
     daily["last_prompt_kind"] = kind
-    daily["cooldown_until"] = fmt_ts(now + timedelta(minutes=prof.get("prompt_cooldown_minutes", 120)))
+    daily["cooldown_until"] = fmt_ts(now + timedelta(minutes=calculate_dynamic_cooldown(state, now, "prompt")))
     if kind == "standalone":
         daily["standalone_prompts_today"] = daily.get("standalone_prompts_today", 0) + 1
     else:
